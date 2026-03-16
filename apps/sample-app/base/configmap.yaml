@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sample-app-config
+data:
+  index.html: |
+    <html>
+      <body>
+        <h1>k8s-platform-fleet</h1>
+        <p>Environment: base</p>
+      </body>
+    </html>

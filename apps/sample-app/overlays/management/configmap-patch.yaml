@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sample-app-config
+data:
+  index.html: |
+    <html>
+      <body style="font-family: monospace; background: #1a1a1a; color: #00ff00; padding: 2rem;">
+        <h1>k8s-platform-fleet</h1>
+        <p>Cluster: <strong>management-cluster</strong></p>
+        <p>Role: Control plane — runs ArgoCD</p>
+        <p>Managed by: ArgoCD ApplicationSet</p>
+      </body>
+    </html>
